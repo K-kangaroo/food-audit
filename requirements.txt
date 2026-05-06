@@ -4,4 +4,4 @@ openpyxl
 pillow
 reportlab
 paddleocr>=2.6
-paddlepaddle
+paddlepaddle-tiny  # 改成 tiny 版本，体积更小，启动更快
