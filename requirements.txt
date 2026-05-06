@@ -3,5 +3,6 @@ pandas
 openpyxl
 pillow
 reportlab
+opencv-python-headless
 paddleocr>=2.6
-paddlepaddle-tiny  # 改成 tiny 版本，体积更小，启动更快
+paddlepaddle==2.5.2
