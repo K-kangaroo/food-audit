@@ -4,5 +4,5 @@ openpyxl
 pillow
 reportlab
 opencv-python-headless
-paddlepaddle-tiny
+paddlepaddle-tiny==2.6.1
 paddleocr>=2.6
