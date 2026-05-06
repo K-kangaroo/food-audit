@@ -12,6 +12,15 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
 import io
 
+@st.cache_resource
+def get_ocr():
+    # 只有在需要的时候才导入和加载模型
+    from paddleocr import PaddleOCR
+    return PaddleOCR(use_angle_cls=True, lang="ch", use_gpu=False)
+
+# 在点击“核对”按钮后才调用 ocr = get_ocr()
+
+
 # 设置页面配置（手机适配）
 st.set_page_config(page_title="食材核对系统 v7.8", layout="centered")
 
