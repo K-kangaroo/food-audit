@@ -1,5 +1,7 @@
-streamlit
+streamlit==1.57.0
 pandas
 openpyxl
 pillow
 reportlab
+paddleocr>=2.6
+paddlepaddle
