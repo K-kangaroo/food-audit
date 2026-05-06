@@ -5,4 +5,4 @@ pillow
 reportlab
 opencv-python-headless
 paddleocr>=2.6
-paddlepaddle==2.5.2
+paddlepaddle-tiny==2.6.1
